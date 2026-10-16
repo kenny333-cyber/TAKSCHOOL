@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Primera Calculadora</title>
+  <link rel="stylesheet" href="MOD.css">
+</head>
+<body>
+
+  <div class="card">
+    <h2>Calculadora Básica</h2>
+    
+    <div class="input-group">
+      <label for="num1">Primer Número:</label>
+      <input type="number" id="num1" placeholder="Ej: 10">
+    </div>
+
+    <div class="input-group">
+      <label for="num2">Segundo Número:</label>
+      <input type="number" id="num2" placeholder="Ej: 5">
+    </div>
+
+    <div class="botones">
+      <button id="btnSumar">Sumar (+)</button>
+      <button id="btnRestar">Restar (-)</button>
+      <button id="btnMultiplicar">Multiplicar (*)</button>
+      <button id="btnDividir">Dividir (/)</button>
+    </div>
+
+    <div id="resultado" class="resultado-box hidden">
+      <p id="txtResultado"></p>
+    </div>
+  </div>
+
+  <script src="MOD.js"></script>
+</body>
+</html>
